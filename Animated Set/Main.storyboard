@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Bbx-Wq-unc">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Set View Controller-->
+        <scene sceneID="jj3-TL-86C">
+            <objects>
+                <viewController id="Bbx-Wq-unc" customClass="SetViewController" customModule="Animated_Set" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fuY-eH-usI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zof-2Z-Y73">
+                                <rect key="frame" x="0.0" y="44" width="375" height="624"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lt1-xx-Sme">
+                                <rect key="frame" x="0.0" y="668" width="375" height="110"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="u03-oy-1fs">
+                                        <rect key="frame" x="30.333333333333343" y="20" width="315" height="70"/>
+                                        <subviews>
+                                            <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3AW-BR-Tqa" customClass="DeckView" customModule="Animated_Set" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="140" height="70"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="elE-J7-7Tm">
+                                                        <rect key="frame" x="41.333333333333343" y="17" width="58.666666666666657" height="36"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="elE-J7-7Tm" firstAttribute="centerX" secondItem="3AW-BR-Tqa" secondAttribute="centerX" id="Wha-vW-wEQ"/>
+                                                    <constraint firstAttribute="width" secondItem="3AW-BR-Tqa" secondAttribute="height" multiplier="2:1" id="YAL-4n-DxJ"/>
+                                                    <constraint firstItem="elE-J7-7Tm" firstAttribute="centerY" secondItem="3AW-BR-Tqa" secondAttribute="centerY" id="jLI-bA-wdo"/>
+                                                    <constraint firstAttribute="height" constant="70" id="zJp-es-oKq"/>
+                                                </constraints>
+                                            </view>
+                                            <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hLp-ZT-QNm" customClass="DeckView" customModule="Animated_Set" customModuleProvider="target">
+                                                <rect key="frame" x="175" y="0.0" width="140" height="70"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 Sets" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCC-uG-CUa">
+                                                        <rect key="frame" x="29" y="17" width="83" height="36"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="70" id="3zW-bZ-4yQ"/>
+                                                    <constraint firstAttribute="width" secondItem="hLp-ZT-QNm" secondAttribute="height" multiplier="2:1" id="Nah-eQ-B0F"/>
+                                                    <constraint firstItem="QCC-uG-CUa" firstAttribute="centerY" secondItem="hLp-ZT-QNm" secondAttribute="centerY" id="XIp-UM-xSr"/>
+                                                    <constraint firstItem="QCC-uG-CUa" firstAttribute="centerX" secondItem="hLp-ZT-QNm" secondAttribute="centerX" id="kEO-9J-LAJ"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="u03-oy-1fs" firstAttribute="top" secondItem="lt1-xx-Sme" secondAttribute="top" constant="20" symbolic="YES" id="OTO-mq-kZ9"/>
+                                    <constraint firstItem="u03-oy-1fs" firstAttribute="centerY" secondItem="lt1-xx-Sme" secondAttribute="centerY" id="xxW-tB-GHE"/>
+                                    <constraint firstItem="u03-oy-1fs" firstAttribute="centerX" secondItem="lt1-xx-Sme" secondAttribute="centerX" id="zsH-ZC-D1U"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="sES-dt-EwY" firstAttribute="trailing" secondItem="lt1-xx-Sme" secondAttribute="trailing" id="3SG-RW-P1G"/>
+                            <constraint firstItem="Zof-2Z-Y73" firstAttribute="trailing" secondItem="sES-dt-EwY" secondAttribute="trailing" id="AiG-hK-Hxk"/>
+                            <constraint firstItem="lt1-xx-Sme" firstAttribute="leading" secondItem="sES-dt-EwY" secondAttribute="leading" id="F3n-u4-9pF"/>
+                            <constraint firstItem="Zof-2Z-Y73" firstAttribute="leading" secondItem="sES-dt-EwY" secondAttribute="leading" id="W5q-Dk-DKc"/>
+                            <constraint firstItem="Zof-2Z-Y73" firstAttribute="top" secondItem="sES-dt-EwY" secondAttribute="top" id="aj0-9w-7ec"/>
+                            <constraint firstItem="sES-dt-EwY" firstAttribute="bottom" secondItem="lt1-xx-Sme" secondAttribute="bottom" id="nhV-26-mco"/>
+                            <constraint firstItem="lt1-xx-Sme" firstAttribute="top" secondItem="Zof-2Z-Y73" secondAttribute="bottom" id="rMB-dq-neO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="sES-dt-EwY"/>
+                    </view>
+                    <connections>
+                        <outlet property="boardView" destination="Zof-2Z-Y73" id="Oja-Jy-AQX"/>
+                        <outlet property="deckView" destination="3AW-BR-Tqa" id="YSz-fL-iEB"/>
+                        <outlet property="setsView" destination="hLp-ZT-QNm" id="S4e-bL-W0l"/>
+                        <outlet property="stackSuperview" destination="lt1-xx-Sme" id="TE4-h2-lm6"/>
+                        <outlet property="stackView" destination="u03-oy-1fs" id="1He-97-dgH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lmh-nY-Q5e" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1000.8" y="133.74384236453201"/>
+        </scene>
+    </scenes>
+</document>
