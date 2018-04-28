@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		7C759A5B205F01DB00F097A7 /* FlyawayCardBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C759A5A205F01DB00F097A7 /* FlyawayCardBehavior.swift */; };
 		7C767D03205D8EBB0091F707 /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C767D02205D8EBB0091F707 /* DeckView.swift */; };
+		7CB0992A2094BA0600B675A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB099292094BA0600B675A6 /* Assets.xcassets */; };
 		7CDDD0FB2054C0A0003AB0D7 /* SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDDD0FA2054C0A0003AB0D7 /* SetViewController.swift */; };
 		7CDDD0FE2054C16E003AB0D7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDDD0FC2054C16E003AB0D7 /* CardView.swift */; };
 		7CDDD0FF2054C16E003AB0D7 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDDD0FD2054C16E003AB0D7 /* ShapeView.swift */; };
 		7CDDD1032054C182003AB0D7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDDD1012054C182003AB0D7 /* Card.swift */; };
 		7CDDD1072055D459003AB0D7 /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDDD1062055D459003AB0D7 /* SetGame.swift */; };
 		7CFA509E20548ED600B27025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA509D20548ED600B27025 /* AppDelegate.swift */; };
-		7CFA50A520548ED600B27025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA50A420548ED600B27025 /* Assets.xcassets */; };
 		7CFA50A820548ED600B27025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA50A620548ED600B27025 /* LaunchScreen.storyboard */; };
 		7CFA50CF20548FEE00B27025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA50C720548FEE00B27025 /* Main.storyboard */; };
 		7CFA50D52054906500B27025 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA50D42054906500B27025 /* Grid.swift */; };
@@ -24,6 +24,7 @@
 /* Begin PBXFileReference section */
 		7C759A5A205F01DB00F097A7 /* FlyawayCardBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyawayCardBehavior.swift; sourceTree = "<group>"; };
 		7C767D02205D8EBB0091F707 /* DeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckView.swift; sourceTree = "<group>"; };
+		7CB099292094BA0600B675A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CDDD0FA2054C0A0003AB0D7 /* SetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SetViewController.swift; path = "Animated Set/Controllers/SetViewController.swift"; sourceTree = SOURCE_ROOT; };
 		7CDDD0FC2054C16E003AB0D7 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = "../../../Graphical Set/Graphical Set/Views/CardView.swift"; sourceTree = "<group>"; };
 		7CDDD0FD2054C16E003AB0D7 /* ShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShapeView.swift; path = "../../../Graphical Set/Graphical Set/Views/ShapeView.swift"; sourceTree = "<group>"; };
@@ -31,7 +32,6 @@
 		7CDDD1062055D459003AB0D7 /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
 		7CFA509A20548ED600B27025 /* Animated Set.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated Set.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CFA509D20548ED600B27025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7CFA50A420548ED600B27025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CFA50A720548ED600B27025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CFA50A920548ED600B27025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CFA50C720548FEE00B27025 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 				7CFA509D20548ED600B27025 /* AppDelegate.swift */,
 				7CFA50D42054906500B27025 /* Grid.swift */,
 				7C759A5A205F01DB00F097A7 /* FlyawayCardBehavior.swift */,
-				7CFA50A420548ED600B27025 /* Assets.xcassets */,
+				7CB099292094BA0600B675A6 /* Assets.xcassets */,
 				7CFA50A620548ED600B27025 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
@@ -178,8 +178,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CFA50CF20548FEE00B27025 /* Main.storyboard in Resources */,
+				7CB0992A2094BA0600B675A6 /* Assets.xcassets in Resources */,
 				7CFA50A820548ED600B27025 /* LaunchScreen.storyboard in Resources */,
-				7CFA50A520548ED600B27025 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
