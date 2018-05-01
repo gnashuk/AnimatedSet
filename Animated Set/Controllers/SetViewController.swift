@@ -87,10 +87,6 @@ class SetViewController: UIViewController {
         }
     }
     
-//    private func updateScore() {
-//        scoreLabel.text = "\(game.score)"
-//    }
-    
     private func choose(card selectedCard: CardView) {
         if selectedCards.contains(selectedCard) {
             selectedCard.isSelected = false
@@ -318,7 +314,12 @@ extension SetViewController {
     }
     
     private var deckMidY: CGFloat {
-        return stackSuperview.frame.minY + stackSuperview.frame.height / 2 - view.safeAreaLayoutGuide.layoutFrame.minY
+        let stackMidY = stackSuperview.frame.minY + stackSuperview.frame.height / 2
+        if #available(iOS 11.0, *) {
+            return stackMidY - view.safeAreaLayoutGuide.layoutFrame.minY
+        } else {
+            return stackMidY - 20
+        }
     }
 }
 

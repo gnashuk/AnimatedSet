@@ -68,11 +68,11 @@
 		7CFA509C20548ED600B27025 /* Animated Set */ = {
 			isa = PBXGroup;
 			children = (
+				7CFA50C720548FEE00B27025 /* Main.storyboard */,
 				7CFA50C520548FEE00B27025 /* Controllers */,
 				7CFA50C820548FEE00B27025 /* Model */,
 				7CFA50CB20548FEE00B27025 /* Views */,
 				7CFA50C220548F4F00B27025 /* Supporting Files */,
-				7CFA50C720548FEE00B27025 /* Main.storyboard */,
 				7CFA50A920548ED600B27025 /* Info.plist */,
 			);
 			path = "Animated Set";
@@ -330,11 +330,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NR9LZ3ALZE;
 				INFOPLIST_FILE = "Animated Set/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gnashuk.oleg.Animated-Set";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -345,11 +346,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NR9LZ3ALZE;
 				INFOPLIST_FILE = "Animated Set/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gnashuk.oleg.Animated-Set";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
